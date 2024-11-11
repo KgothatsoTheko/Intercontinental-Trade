@@ -1,0 +1,18 @@
+<div class="flex column full-width border-box">
+    <div class="center-center flex full-width con">
+        <h3>All Transactions</h3>
+    </div>
+    <div class="padding-10px" *ngFor="let item of array; let i = index">
+        <mat-card class="padding-10px border-box">
+            <p class="no-margin"><strong>Currency:</strong> {{item.currency}}</p>
+            <p class="no-margin"><strong>SWIFT Account:</strong> {{item.accountNumber}}</p>
+            <p class="no-margin"><strong>SWIFT Code:</strong> {{item.code}}</p>
+            <p class="no-margin"><strong>Amount:</strong> {{item.amount}}</p>
+            <p class="no-margin"><strong>Status:</strong> {{item.status}}</p>
+            <div class="flex center-center gap-1em">
+                <button mat-raised-button class="white half-width green-bg" (click)="verify(i, item)">Verify</button>
+                <button mat-raised-button color="primary" class="white half-width" (click)="submit(i, item)">Submit</button>
+            </div>
+        </mat-card>
+    </div><br><br><br>
+</div>
