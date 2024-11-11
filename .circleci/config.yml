@@ -43,8 +43,8 @@ jobs:
           -Dsonar.token="$SONAR_TOKEN" \
           -Dsonar.branch.name="$SONAR_BRANCH" \
           -Dsonar.sources="."
-          -Dsonar.c.file.suffixes=- \
-          -Dsonar.cpp.file.suffixes=- \
+          -Dsonar.c.file.suffixes=- 
+          -Dsonar.cpp.file.suffixes=- 
           -Dsonar.objc.file.suffixes=-
 
 # Orchestrate jobs using workflows
