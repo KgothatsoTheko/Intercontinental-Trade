@@ -61,7 +61,7 @@ Follow these steps to set up and run the project on your local machine:
    npm install -g @angular/cli
 
 ### Step 1: Clone the Repository
-git clone [https://github.com/your-username/your-repo-name.git](https://github.com/KgothatsoTheko/Intercontinental-Trade.git
+git clone https://github.com/KgothatsoTheko/Intercontinental-Trade.git
 cd intercontinental-Trade
 
 ### Step 2: Set Up the Backend
