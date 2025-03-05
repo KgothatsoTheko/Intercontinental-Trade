@@ -48,3 +48,28 @@ October 2024 - November 2024
 
 ## Role
 Full Stack Developer
+
+## How to Run Locally
+
+Follow these steps to set up and run the project on your local machine:
+
+### Prerequisites
+1. **Node.js**: Ensure Node.js is installed. Download it from [nodejs.org](https://nodejs.org/).
+2. **MongoDB**: Install MongoDB locally or use a cloud-based MongoDB instance like MongoDB Atlas. Follow the [MongoDB installation guide](https://docs.mongodb.com/manual/installation/).
+3. **Angular CLI**: Install Angular CLI globally using the following command:
+   ```bash
+   npm install -g @angular/cli
+
+### Step 1: Clone the Repository
+git clone [https://github.com/your-username/your-repo-name.git](https://github.com/KgothatsoTheko/Intercontinental-Trade.git
+cd intercontinental-Trade
+
+### Step 2: Set Up the Backend
+cd backend
+npm install
+npm start
+
+### Step 3: Set Up the Frontend
+cd ../intercontinental-Trade
+npm install
+ng serve -open
