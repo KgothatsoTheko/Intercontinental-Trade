@@ -1,7 +1,7 @@
-# Intercontinental Trade System - MEAN Stack Web Application
+# Intercontinental Bank System - MEAN Stack Web Application
 
 ## Overview
-This project is a robust and secure Intercontinental Trade System developed using the MEAN stack (MongoDB, Express.js, Angular, Node.js). The system facilitates international payments for customers and streamlines transaction management for staff. It features two distinct user portals: a **Customer Portal** and a **Staff Portal**, each designed to meet specific user needs.
+This project is a robust and secure Intercontinental Bank System developed using the MEAN stack (MongoDB, Express.js, Angular, Node.js). The system facilitates international payments for customers and streamlines transaction management for staff. It features two distinct user portals: a **Customer Portal** and a **Staff Portal**, each designed to meet specific user needs.
 
 ## Key Features
 
